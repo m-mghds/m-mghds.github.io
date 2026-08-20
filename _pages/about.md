@@ -20,6 +20,16 @@ latest_posts:
   enabled: false
 ---
 
+<style>
+  .social .contact-icons {
+    font-size: 1.35rem !important;
+  }
+
+  .social .contact-icons a {
+    margin: 0 0.12rem;
+  }
+</style>
+
 I am a researcher in **hardware security and cryptographic engineering**, with an M.Sc. in Computer Architecture Engineering from the Iran University of Science and Technology (IUST).
 
 My research focuses on the security and trustworthiness of hardware and cryptographic implementations. I am particularly interested in **physical unclonable functions (PUFs), side-channel and fault analysis, logic locking, secure RTL/FPGA design, and hardware-oriented cryptography**.
