@@ -2,11 +2,14 @@
 layout: about
 title: about
 permalink: /
+nav: true
+nav_order: 1
 subtitle: Hardware Security · Cryptographic Engineering · Side-Channel Analysis · Secure Hardware Design
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Mostafa3.png
+  image_width: 220px
   image_circular: false
 
 selected_papers: true

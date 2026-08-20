@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - m-mghds
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - m-mghds/ascon-rs
+  - m-mghds/opuf
+  - m-mghds/cpu-fault-analysis
+  - m-mghds/fpga-dac-interface-vhdl
+  - m-mghds/Font-Awesome
+  - m-mghds/MathJax
+  - m-mghds/academicons
