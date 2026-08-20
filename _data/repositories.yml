@@ -8,6 +8,4 @@ github_repos:
   - m-mghds/opuf
   - m-mghds/cpu-fault-analysis
   - m-mghds/fpga-dac-interface-vhdl
-  - m-mghds/Font-Awesome
-  - m-mghds/MathJax
-  - m-mghds/academicons
+  - m-mghds/aes-vhdl
