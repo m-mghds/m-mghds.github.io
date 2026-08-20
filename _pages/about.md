@@ -8,7 +8,7 @@ subtitle: Hardware Security · Cryptographic Engineering · Side-Channel Analysi
 
 profile:
   align: right
-  image: Mostafa3.png
+  image: prof_pic.jpg
   image_width: 220px
   image_circular: false
 
