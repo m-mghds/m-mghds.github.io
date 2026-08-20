@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-nav: true
 subtitle: Hardware Security · Cryptographic Engineering · Side-Channel Analysis · Secure Hardware Design
 
 profile:
