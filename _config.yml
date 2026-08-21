@@ -6,21 +6,19 @@ title: Mostafa Moghaddas # the website title (if blank, full name will be used i
 first_name: Mostafa
 last_name: Moghaddas
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Email is the best way to contact me regarding research collaborations and PhD opportunities.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Hardware Security and Cryptographic Engineering researcher focusing on side-channel analysis, PUFs, secure hardware, and cryptographic implementations.
+  Hardware Security and Cryptographic Engineering researcher focusing on side-channel analysis, physical unclonable functions, secure hardware design, and cryptographic implementations.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  © 2026 Mostafa Moghaddas. Hardware Security and Cryptographic Engineering Researcher.
+keywords: hardware security, cryptographic engineering, side-channel analysis, physical unclonable functions, PUF, logic locking, secure hardware, FPGA, RTL design
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://m-mghds.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
