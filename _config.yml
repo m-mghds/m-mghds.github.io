@@ -8,7 +8,7 @@ last_name: Moghaddas
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Hardware Security and Cryptographic Engineering researcher focusing on side-channel analysis, PUFs, secure hardware, and cryptographic implementations.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -128,7 +128,7 @@ analytics:
 enable_simple_analytics: false # Simple Analytics identifies a site by its domain, so it has no ID to set above
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: google94c1d22f1450dd50
+google_site_verification: zbP293skdgzGmpq
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
