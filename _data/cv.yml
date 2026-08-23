@@ -1,15 +1,11 @@
 cv:
   name: Mostafa Moghaddas
-  label: Hardware Security & Cryptographic Engineering Researcher
+  label: Hardware Security Researcher
   email: mostafa.moghaddas76@gmail.com
   location: Tehran, Iran
-  image: prof_pic.jpg
+  image: /assets/img/prof_pic.jpg
 
-  summary: >
-    Researcher in hardware security and cryptographic engineering with an M.Sc.
-    in Computer Architecture Engineering from Iran University of Science and Technology (IUST).
-    My research focuses on physical unclonable functions, side-channel analysis,
-    secure hardware design, and machine-learning-based attacks.
+  summary: "Researcher in hardware security and cryptographic engineering with an M.Sc. in Computer Architecture Engineering from Iran University of Science and Technology (IUST)."
 
   social_networks:
     - network: GitHub
@@ -45,12 +41,12 @@ cv:
           - "Thesis: Developing a Deep Neural Network for Handwritten Digit Recognition Using Python"
 
 
-    Research Experience:
+    Experience:
       - company: Hardware Security Lab, Iran University of Science and Technology
         position: Research Assistant
         location: Tehran, Iran
         start_date: 2021
-        end_date: Present
+        end_date: ""
         summary: >
           Conducting research on secure hardware architectures, PUF designs,
           side-channel analysis, and hardware security evaluation.
@@ -143,11 +139,11 @@ cv:
 
     Awards:
       - title: "Ranked 2nd among Computer Systems Architecture Engineering graduate students"
-        date: 2022
+        date: 2022-01-01
         awarder: Iran University of Science and Technology
 
       - title: "Ranked 4th among School of Computer Engineering graduate students"
-        date: 2022
+        date: 2022-01-01
         awarder: Iran University of Science and Technology
 
       - title: "Recognized as Exceptional Talent - Eligible for Direct PhD Track"
