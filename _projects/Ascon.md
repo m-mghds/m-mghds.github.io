@@ -29,5 +29,4 @@ This project focuses on understanding and evaluating implementation-level leakag
 - Side-channel evaluation
 - Machine learning
 
-
 The project is part of my ongoing research interest in secure cryptographic hardware implementations.
