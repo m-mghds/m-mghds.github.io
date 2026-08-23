@@ -2,20 +2,28 @@ cv:
   name: Mostafa Moghaddas
   label: Researcher in Hardware Security and Cryptographic Engineering
   email: mostafa.moghaddas76@gmail.com
-  location: Tehran, Iran
+  location: Princeton, NJ
   image: ""
-  summary: "Researcher in hardware security and cryptographic engineering with an M.Sc. in Computer Architecture Engineering from Iran University of Science and Technology (IUST). My research focuses on physical unclonable functions, side-channel analysis, secure hardware design, and cryptographic implementations."
+  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+
+  social_networks:
+    - network: X
+      username: AlbertEinstein
+    - network: GitHub
+      username: example
+    - network: LinkedIn
+      username: example
 
   address:
-    street: ""
-    city: Tehran
-    region: Tehran
-    postalCode: ""
-    countryCode: Iran
+    street: 2712 Broadway St
+    city: San Francisco
+    region: California
+    postalCode: CA 94115
+    countryCode: US
 
   sections:
     Education:
-      - institution: Iran University of Science and Technology (IUST)
+      - institution: University of Zurich
         location: Zurich, Switzerland
         url: https://www.uzh.ch/
         area: Physics
