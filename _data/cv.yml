@@ -48,7 +48,6 @@ cv:
         highlights:
           - Thesis: Developing a Deep Neural Network for Handwritten Digit Recognition Using Python.
 
-
     Experience:
       - company: Hardware Security Lab, Iran University of Science and Technology
         position: Research Assistant
@@ -81,7 +80,6 @@ cv:
           - Database Design.
           - Compiler Design.
 
-
     Volunteer:
       - company: National Elites Foundation of Iran
         position: Member
@@ -91,7 +89,6 @@ cv:
         summary: Recognized as an exceptional talent student eligible for direct PhD track.
         highlights:
           - Member of National Elites Foundation of Iran.
-
 
     Awards:
       - title: Ranked 2nd among Computer Systems Architecture Engineering graduate students
@@ -115,9 +112,8 @@ cv:
         awarder: Iran University of Science and Technology
         summary: Eligible for direct PhD track.
 
-
     Publications:
-      - title: OPUF: Obfuscated PUF Against Machine Learning Modeling Attacks
+      - title: "OPUF: Obfuscated PUF Against Machine Learning Modeling Attacks"
         authors:
           - Mostafa Moghaddas
           - Marziye Pandi
@@ -127,7 +123,7 @@ cv:
         url: https://doi.org/10.1142/S0218126625502457
         summary: Proposed an obfuscated physical unclonable function architecture to improve resistance against machine-learning-based modeling attacks.
 
-      - title: TestLock: A Testability Logic Locking Method Against Machine Learning-Based Oracle-Less Attacks
+      - title: "TestLock: A Testability Logic Locking Method Against Machine Learning-Based Oracle-Less Attacks"
         authors:
           - Marziye Pandi
           - Mostafa Moghaddas
@@ -137,7 +133,7 @@ cv:
         url: https://doi.org/10.1007/s11227-025-07803-9
         summary: Introduced a testability-based logic locking method against machine-learning-based oracle-less attacks.
 
-      - title: Edge-Sorter: A Hardware Sorting Engine for Area & Power Constrained Edge Computing Devices
+      - title: "Edge-Sorter: A Hardware Sorting Engine for Area & Power Constrained Edge Computing Devices"
         authors:
           - Hakem Beitollahi
           - Marziye Pandi
@@ -146,7 +142,6 @@ cv:
         releaseDate: 2024
         url: https://doi.org/10.1016/j.micpro.2024.105006
         summary: Designed a hardware sorting engine optimized for area and power constrained edge computing devices.
-
 
     Skills:
       - name: Programming
@@ -164,7 +159,6 @@ cv:
         icon: fa-solid fa-hashtag
         keywords: "Artix-7 FPGA, Xilinx 7-Series FPGA, RISC-V"
 
-
     Languages:
       - name: Persian
         summary: Native speaker
@@ -174,7 +168,6 @@ cv:
 
       - name: Arabic
         summary: Basic
-
 
     Interests:
       - name: Hardware Security
@@ -189,13 +182,11 @@ cv:
         icon: fa-solid fa-tag
         keywords: "Hardware Verification, Trustworthy Computing"
 
-
     Certificates:
       - name: ""
         date: ""
         issuer: ""
         icon: ""
-
 
     Projects:
       - name: ASCON Implementation and Side-Channel Analysis
@@ -229,7 +220,6 @@ cv:
         summary: Designed a Verilog CPU and performed fault injection, fault collapsing, and fault coverage analysis.
         start_date: 2022-01-01
         end_date: 2022-12-31
-
 
     References:
       - name: Dr. Hakem Beitollahi
