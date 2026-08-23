@@ -139,15 +139,22 @@ cv:
 
     Awards:
       - title: "Ranked 2nd among Computer Systems Architecture Engineering graduate students"
+        authors:
+          - "Iran University of Science and Technology"
         date: 2022-01-01
-        awarder: Iran University of Science and Technology
-
+        awarder: "Iran University of Science and Technology"
+    
       - title: "Ranked 4th among School of Computer Engineering graduate students"
+        authors:
+          - "Iran University of Science and Technology"
         date: 2022-01-01
-        awarder: Iran University of Science and Technology
-
+        awarder: "Iran University of Science and Technology"
+    
       - title: "Recognized as Exceptional Talent - Eligible for Direct PhD Track"
-        awarder: Iran University of Science and Technology
+        authors:
+          - "Iran University of Science and Technology"
+        date: 2022-01-01
+        awarder: "Iran University of Science and Technology"
 
 
     Skills:
