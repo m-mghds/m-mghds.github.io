@@ -3,9 +3,8 @@ cv:
   label: Hardware Security Researcher
   email: mostafa.moghaddas76@gmail.com
   location: Tehran, Iran
-  image: /assets/img/prof_pic.jpg
-
-  summary: "Researcher in hardware security and cryptographic engineering with an M.Sc. in Computer Architecture Engineering from Iran University of Science and Technology (IUST)."
+  image: "/assets/img/prof_pic.jpg"
+  summary: "Researcher in hardware security and cryptographic engineering with an M.Sc. in Computer Architecture Engineering from Iran University of Science and Technology (IUST). My research focuses on physical unclonable functions, side-channel analysis, secure hardware design, and cryptographic implementations."
 
   social_networks:
     - network: GitHub
@@ -15,11 +14,19 @@ cv:
     - network: Google Scholar
       username: qc6CJjYAAAAJ
 
+  address:
+    street: ""
+    city: Tehran
+    region: Tehran
+    postalCode: ""
+    countryCode: IR
+
   sections:
 
     Education:
       - institution: Iran University of Science and Technology (IUST)
         location: Tehran, Iran
+        url: https://www.iust.ac.ir/
         area: Computer Architecture Engineering
         studyType: M.Sc.
         start_date: 2021
@@ -27,12 +34,13 @@ cv:
         score: "CGPA: 3.88/4.0 (17.58/20)"
         courses: ""
         highlights:
-          - "Ranked 2nd/10 in the Department and 4th/120 in the School"
           - "Thesis: Providing a Physical Unclonable Function to Improve Resilience Against Conventional Attacks"
           - "Supervisor: Dr. Hakem Beitollahi"
+          - "Ranked 2nd/10 in the Department and 4th/120 in the School"
 
       - institution: Azad University, South Tehran Branch
         location: Tehran, Iran
+        url: ""
         area: Software Engineering
         studyType: B.Sc.
         start_date: 2015
@@ -46,95 +54,39 @@ cv:
         position: Research Assistant
         location: Tehran, Iran
         start_date: 2021
-        end_date: ""
-        summary: >
-          Conducting research on secure hardware architectures, PUF designs,
-          side-channel analysis, and hardware security evaluation.
+        end_date: 2026
+        summary: "Research on hardware security, physical unclonable functions, side-channel analysis, and secure hardware architectures."
         highlights:
-          - "Designed and evaluated PUF architectures resistant to machine-learning modeling attacks"
-          - "Contributed to testability-based logic locking research"
+          - "Designed and evaluated PUF architectures resilient against machine-learning modeling attacks"
+          - "Contributed to testability-based logic locking methods"
           - "Developed hardware architectures for resource-constrained systems"
 
-
-    Publications:
-      - title: "OPUF: Obfuscated PUF Against Machine Learning Modeling Attacks"
-        authors:
-          - "Mostafa Moghaddas"
-          - "Marziye Pandi"
-          - "Hakem Beitollahi"
-        publisher: Journal of Circuits, Systems and Computers
-        releaseDate: 2025
-        summary: >
-          Proposed an obfuscated PUF architecture improving resistance against
-          machine-learning-based modeling attacks.
-
-      - title: "TestLock: A Testability Logic Locking Method Against Machine Learning-Based Oracle-Less Attacks"
-        authors:
-          - "Marziye Pandi"
-          - "Mostafa Moghaddas"
-          - "Hakem Beitollahi"
-        publisher: The Journal of Supercomputing
-        releaseDate: 2025
-        summary: >
-          Introduced a testability-driven logic locking method against advanced
-          oracle-less machine learning attacks.
-
-      - title: "Edge-Sorter: A Hardware Sorting Engine for Area & Power Constrained Edge Computing Devices"
-        authors:
-          - "Hakem Beitollahi"
-          - "Marziye Pandi"
-          - "Mostafa Moghaddas"
-        publisher: Microprocessors and Microsystems
-        releaseDate: 2024
-        summary: >
-          Designed a low-power hardware sorting engine optimized for edge computing devices.
-
-
-    Projects:
-      - name: "ASCON Implementation and Side-Channel Analysis"
-        start_date: 2026
-        summary: >
-          Implementation and security evaluation of ASCON using power analysis,
-          DPA, CPA, and machine-learning-based side-channel attacks.
-
-      - name: "Hardware Cryptography Implementations"
-        start_date: 2025
-        summary: >
-          FPGA implementations of AES, A5/1, Trivium, Keccak, Kogge-Stone adder,
-          and Karatsuba multiplier architectures.
-
-      - name: "Side-Channel Analysis of AES"
-        start_date: 2025
-        summary: >
-          Security evaluation of multiple AES implementations against timing,
-          SPA, DPA, CPA, template, and collision-based attacks.
-
-      - name: "FPGA-DAC Interface Design"
-        start_date: 2022
-        summary: >
-          Designed an FPGA interface with AD9117 dual DAC using VHDL.
-
-      - name: "Fault Analysis on Simple CPU"
-        start_date: 2022
-        summary: >
-          Designed a Verilog CPU and performed fault injection and fault coverage analysis.
-
-
-    Teaching:
       - company: Iran University of Science and Technology
-        position: Head Teaching Assistant
+        position: Head Teaching Assistant - Computer-Aided Design
         location: Tehran, Iran
         start_date: 2024
-        summary: "Computer-Aided Design"
+        end_date: 2024
+        highlights:
+          - "Head Teaching Assistant for Computer-Aided Design course"
 
       - company: Iran University of Science and Technology
         position: Teaching Assistant
         location: Tehran, Iran
         start_date: 2021
         end_date: 2024
-        summary: >
-          Courses including Computer Architecture, Advanced Computer Architecture,
-          Computer-Aided Design, Database Design, Compiler Design.
+        highlights:
+          - "Computer-Aided Design"
+          - "Advanced Computer Architecture"
+          - "Computer Architecture"
+
+
+    Volunteer:
+      - company: National Elites Foundation of Iran
+        position: Member
+        location: Iran
+        start_date: 2022
+        end_date: 2026
+        summary: "Recognized as an exceptional talent student eligible for direct PhD track."
 
 
     Awards:
@@ -143,13 +95,13 @@ cv:
           - "Iran University of Science and Technology"
         date: 2022-01-01
         awarder: "Iran University of Science and Technology"
-    
+
       - title: "Ranked 4th among School of Computer Engineering graduate students"
         authors:
           - "Iran University of Science and Technology"
         date: 2022-01-01
         awarder: "Iran University of Science and Technology"
-    
+
       - title: "Recognized as Exceptional Talent - Eligible for Direct PhD Track"
         authors:
           - "Iran University of Science and Technology"
@@ -157,34 +109,123 @@ cv:
         awarder: "Iran University of Science and Technology"
 
 
+    Publications:
+      - title: "OPUF: Obfuscated PUF Against Machine Learning Modeling Attacks"
+        authors:
+          - "Mostafa Moghaddas"
+          - "Marziye Pandi"
+          - "Hakem Beitollahi"
+        publisher: "Journal of Circuits, Systems and Computers"
+        releaseDate: 2025
+        url: "https://doi.org/10.1142/S0218126625502457"
+        summary: "Proposed an obfuscated PUF architecture improving resistance against machine-learning-based modeling attacks."
+
+      - title: "TestLock: A Testability Logic Locking Method Against Machine Learning-Based Oracle-Less Attacks"
+        authors:
+          - "Marziye Pandi"
+          - "Mostafa Moghaddas"
+          - "Hakem Beitollahi"
+        publisher: "The Journal of Supercomputing"
+        releaseDate: 2025
+        url: "https://doi.org/10.1007/s11227-025-07803-9"
+        summary: "Introduced a testability-based logic locking method against advanced machine-learning oracle-less attacks."
+
+      - title: "Edge-Sorter: A Hardware Sorting Engine for Area & Power Constrained Edge Computing Devices"
+        authors:
+          - "Hakem Beitollahi"
+          - "Marziye Pandi"
+          - "Mostafa Moghaddas"
+        publisher: "Microprocessors and Microsystems"
+        releaseDate: 2024
+        url: "https://doi.org/10.1016/j.micpro.2024.105006"
+        summary: "Designed a low-power hardware sorting engine optimized for edge computing devices."
+
+
     Skills:
       - name: Programming
+        level: Expert
+        icon: fa-solid fa-code
         keywords: "C, Rust, Python, VHDL, Verilog, SystemVerilog"
 
-      - name: EDA & Simulation
-        keywords: "Vivado, Design Compiler, Cadence, HSPICE, Yosys, ABC, OpenROAD, JasperGold, MATLAB"
+      - name: EDA and Simulation
+        level: Advanced
+        icon: fa-solid fa-microchip
+        keywords: "Xilinx Vivado, ISE, Synopsys Design Compiler, Cadence, HSPICE, Yosys, ABC, OpenROAD, JasperGold, MATLAB"
 
       - name: Hardware
+        level: Advanced
+        icon: fa-solid fa-memory
         keywords: "Artix-7 FPGA, Xilinx 7-Series FPGA, RISC-V"
 
 
     Languages:
       - name: Persian
-        summary: Native
+        summary: "Native speaker"
 
       - name: English
-        summary: Professional
+        summary: "Professional proficiency"
 
       - name: Arabic
-        summary: Basic
+        summary: "Basic"
 
 
     Interests:
       - name: Hardware Security
-        keywords: "PUF, Side-Channel Analysis, Fault Analysis, Logic Locking"
+        icon: fa-solid fa-shield-halved
+        keywords: "Physical Unclonable Functions, Side-Channel Analysis, Fault Analysis, Logic Locking"
 
       - name: Cryptographic Engineering
-        keywords: "Hardware Cryptography, Secure Implementations"
+        icon: fa-solid fa-lock
+        keywords: "Hardware Cryptography, Secure Implementations, ASCON, AES"
 
-      - name: Formal Methods
-        keywords: "Hardware Verification, Trustworthy Computing"
+      - name: Secure Hardware Design
+        icon: fa-solid fa-microchip
+        keywords: "RTL Design, FPGA Security, Trustworthy Computing"
+
+
+    Certificates:
+      - name: ""
+        date: ""
+        issuer: ""
+        icon: ""
+
+
+    Projects:
+      - name: "ASCON Implementation and Side-Channel Analysis"
+        summary: "Implementation and evaluation of ASCON using DPA, CPA, power analysis, and machine-learning-based side-channel attacks."
+        highlights:
+          - "Power trace analysis"
+          - "Attack modeling"
+          - "Implementation-level security evaluation"
+        start_date: 2026
+        end_date: 2026
+
+      - name: "Hardware Cryptography Implementations"
+        summary: "FPGA implementations of AES, A5/1, Trivium, Keccak, Kogge-Stone adder, and Karatsuba multiplier architectures."
+        start_date: 2025
+        end_date: 2025
+
+      - name: "Side-Channel Analysis of AES"
+        summary: "Security evaluation of AES implementations against timing attacks, SPA, DPA, CPA, template attacks, and collision attacks."
+        start_date: 2025
+        end_date: 2025
+
+      - name: "FPGA-DAC Interface Design"
+        summary: "Designed an FPGA interface communicating with an AD9117 dual DAC using VHDL."
+        start_date: 2022
+        end_date: 2022
+
+      - name: "Fault Analysis on a Simple CPU"
+        summary: "Designed a Verilog CPU and performed fault injection, fault collapsing, and fault coverage analysis."
+        start_date: 2022
+        end_date: 2022
+
+
+    References:
+      - name: "Dr. Hakem Beitollahi"
+        icon: fa-solid fa-user
+        reference: "M.Sc. Supervisor and Research Collaborator"
+
+      - name: "Dr. Hosseini Monazzah"
+        icon: fa-solid fa-user
+        reference: "M.Sc. Thesis Internal Examiner"
