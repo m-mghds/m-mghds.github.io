@@ -1,10 +1,7 @@
 cv:
   name: Mostafa Moghaddas
-  label: Hardware Security Researcher
-  email: mostafa.moghaddas76@gmail.com
   location: Tehran, Iran
-  image: "/assets/img/prof_pic.jpg"
-  summary: "Researcher in hardware security and cryptographic engineering with an M.Sc. in Computer Architecture Engineering from Iran University of Science and Technology (IUST). My research focuses on physical unclonable functions, side-channel analysis, secure hardware design, and cryptographic implementations."
+  email: mostafa.moghaddas76@gmail.com
 
   social_networks:
     - network: GitHub
@@ -13,36 +10,29 @@ cv:
       username: mostafa-moghaddas
     - network: Google Scholar
       username: qc6CJjYAAAAJ
-
-  address:
-    street: ""
-    city: Tehran
-    region: Tehran
-    postalCode: ""
-    countryCode: IR
+    - network: ORCID
+      username: 0009-0009-6132-802X
 
   sections:
 
     Education:
       - institution: Iran University of Science and Technology (IUST)
         location: Tehran, Iran
-        url: https://www.iust.ac.ir/
         area: Computer Architecture Engineering
-        studyType: M.Sc.
+        studyType: Master of Science
         start_date: 2021
         end_date: 2024
-        score: "CGPA: 3.88/4.0 (17.58/20)"
-        courses: ""
         highlights:
+          - "CGPA: 3.88/4.0 (17.58/20)"
+          - "Ranked 2nd among Computer Systems Architecture Engineering graduate students"
+          - "Ranked 4th among School of Computer Engineering graduate students"
           - "Thesis: Providing a Physical Unclonable Function to Improve Resilience Against Conventional Attacks"
           - "Supervisor: Dr. Hakem Beitollahi"
-          - "Ranked 2nd/10 in the Department and 4th/120 in the School"
 
       - institution: Azad University, South Tehran Branch
         location: Tehran, Iran
-        url: ""
         area: Software Engineering
-        studyType: B.Sc.
+        studyType: Bachelor of Science
         start_date: 2015
         end_date: 2020
         highlights:
@@ -50,16 +40,16 @@ cv:
 
 
     Experience:
-      - company: Hardware Security Lab, Iran University of Science and Technology
+      - company: Hardware Security Laboratory, Iran University of Science and Technology
         position: Research Assistant
         location: Tehran, Iran
         start_date: 2021
         end_date: 2026
-        summary: "Research on hardware security, physical unclonable functions, side-channel analysis, and secure hardware architectures."
         highlights:
-          - "Designed and evaluated PUF architectures resilient against machine-learning modeling attacks"
-          - "Contributed to testability-based logic locking methods"
-          - "Developed hardware architectures for resource-constrained systems"
+          - "Research on hardware security, cryptographic engineering, PUFs, side-channel analysis, and secure hardware design"
+          - "Designed PUF architectures resistant to machine-learning-based modeling attacks"
+          - "Developed and evaluated hardware security mechanisms for cryptographic systems"
+          - "Worked on logic locking and secure RTL/FPGA architectures"
 
       - company: Iran University of Science and Technology
         position: Head Teaching Assistant - Computer-Aided Design
@@ -67,7 +57,7 @@ cv:
         start_date: 2024
         end_date: 2024
         highlights:
-          - "Head Teaching Assistant for Computer-Aided Design course"
+          - "Managed teaching activities and course projects"
 
       - company: Iran University of Science and Technology
         position: Teaching Assistant
@@ -75,157 +65,162 @@ cv:
         start_date: 2021
         end_date: 2024
         highlights:
-          - "Computer-Aided Design"
-          - "Advanced Computer Architecture"
           - "Computer Architecture"
+          - "Advanced Computer Architecture"
+          - "Computer-Aided Design"
+          - "Database Design"
+          - "Compiler Design"
 
 
     Volunteer:
-      - company: National Elites Foundation of Iran
-        position: Member
+      - organization: National Elites Foundation of Iran
+        position: Exceptional Talent Member
         location: Iran
         start_date: 2022
         end_date: 2026
-        summary: "Recognized as an exceptional talent student eligible for direct PhD track."
+        highlights:
+          - "Recognized as exceptional talent and eligible for direct PhD track"
 
 
     Awards:
       - title: "Ranked 2nd among Computer Systems Architecture Engineering graduate students"
-        authors:
-          - "Iran University of Science and Technology"
         date: 2022-01-01
-        awarder: "Iran University of Science and Technology"
+        awarder: Iran University of Science and Technology
 
       - title: "Ranked 4th among School of Computer Engineering graduate students"
-        authors:
-          - "Iran University of Science and Technology"
         date: 2022-01-01
-        awarder: "Iran University of Science and Technology"
+        awarder: Iran University of Science and Technology
 
-      - title: "Recognized as Exceptional Talent - Eligible for Direct PhD Track"
-        authors:
-          - "Iran University of Science and Technology"
+      - title: "Exceptional Talent Recognition"
         date: 2022-01-01
-        awarder: "Iran University of Science and Technology"
+        awarder: Iran University of Science and Technology
 
 
     Publications:
       - title: "OPUF: Obfuscated PUF Against Machine Learning Modeling Attacks"
         authors:
-          - "Mostafa Moghaddas"
-          - "Marziye Pandi"
-          - "Hakem Beitollahi"
-        publisher: "Journal of Circuits, Systems and Computers"
+          - Mostafa Moghaddas
+          - Marziye Pandi
+          - Hakem Beitollahi
+        publisher: Journal of Circuits, Systems and Computers
         releaseDate: 2025
-        url: "https://doi.org/10.1142/S0218126625502457"
-        summary: "Proposed an obfuscated PUF architecture improving resistance against machine-learning-based modeling attacks."
+        url: https://doi.org/10.1142/S0218126625502457
 
       - title: "TestLock: A Testability Logic Locking Method Against Machine Learning-Based Oracle-Less Attacks"
         authors:
-          - "Marziye Pandi"
-          - "Mostafa Moghaddas"
-          - "Hakem Beitollahi"
-        publisher: "The Journal of Supercomputing"
+          - Marziye Pandi
+          - Mostafa Moghaddas
+          - Hakem Beitollahi
+        publisher: The Journal of Supercomputing
         releaseDate: 2025
-        url: "https://doi.org/10.1007/s11227-025-07803-9"
-        summary: "Introduced a testability-based logic locking method against advanced machine-learning oracle-less attacks."
+        url: https://doi.org/10.1007/s11227-025-07803-9
 
       - title: "Edge-Sorter: A Hardware Sorting Engine for Area & Power Constrained Edge Computing Devices"
         authors:
-          - "Hakem Beitollahi"
-          - "Marziye Pandi"
-          - "Mostafa Moghaddas"
-        publisher: "Microprocessors and Microsystems"
+          - Hakem Beitollahi
+          - Marziye Pandi
+          - Mostafa Moghaddas
+        publisher: Microprocessors and Microsystems
         releaseDate: 2024
-        url: "https://doi.org/10.1016/j.micpro.2024.105006"
-        summary: "Designed a low-power hardware sorting engine optimized for edge computing devices."
+        url: https://doi.org/10.1016/j.micpro.2024.105006
 
 
     Skills:
       - name: Programming
-        level: Expert
-        icon: fa-solid fa-code
-        keywords: "C, Rust, Python, VHDL, Verilog, SystemVerilog"
+        keywords:
+          - C
+          - Rust
+          - Python
+          - VHDL
+          - Verilog
+          - SystemVerilog
 
-      - name: EDA and Simulation
-        level: Advanced
-        icon: fa-solid fa-microchip
-        keywords: "Xilinx Vivado, ISE, Synopsys Design Compiler, Cadence, HSPICE, Yosys, ABC, OpenROAD, JasperGold, MATLAB"
+      - name: Hardware and EDA Tools
+        keywords:
+          - Vivado
+          - Design Compiler
+          - Cadence
+          - HSPICE
+          - Yosys
+          - ABC
+          - OpenROAD
+          - JasperGold
+          - MATLAB
 
-      - name: Hardware
-        level: Advanced
-        icon: fa-solid fa-memory
-        keywords: "Artix-7 FPGA, Xilinx 7-Series FPGA, RISC-V"
+      - name: Hardware Platforms
+        keywords:
+          - Artix-7 FPGA
+          - Xilinx 7-Series FPGA
+          - RISC-V
 
 
     Languages:
       - name: Persian
-        summary: "Native speaker"
+        summary: Native
 
       - name: English
-        summary: "Professional proficiency"
+        summary: Professional Working Proficiency
 
       - name: Arabic
-        summary: "Basic"
+        summary: Basic
 
 
     Interests:
       - name: Hardware Security
-        icon: fa-solid fa-shield-halved
-        keywords: "Physical Unclonable Functions, Side-Channel Analysis, Fault Analysis, Logic Locking"
+        keywords:
+          - Physical Unclonable Functions
+          - Side-Channel Analysis
+          - Fault Analysis
+          - Logic Locking
 
       - name: Cryptographic Engineering
-        icon: fa-solid fa-lock
-        keywords: "Hardware Cryptography, Secure Implementations, ASCON, AES"
+        keywords:
+          - AES
+          - ASCON
+          - Hardware Cryptography
+          - Secure Implementations
 
-      - name: Secure Hardware Design
-        icon: fa-solid fa-microchip
-        keywords: "RTL Design, FPGA Security, Trustworthy Computing"
+      - name: Formal Methods and Verification
+        keywords:
+          - Hardware Verification
+          - Trustworthy Computing
+          - Secure Hardware Systems
 
 
     Certificates:
-      - name: ""
+      - name: None
         date: ""
-        issuer: ""
-        icon: ""
 
 
     Projects:
-      - name: "ASCON Implementation and Side-Channel Analysis"
-        summary: "Implementation and evaluation of ASCON using DPA, CPA, power analysis, and machine-learning-based side-channel attacks."
-        highlights:
-          - "Power trace analysis"
-          - "Attack modeling"
-          - "Implementation-level security evaluation"
-        start_date: 2026
-        end_date: 2026
+      - name: ASCON Implementation and Side-Channel Analysis
+        summary: >
+          Implementation and security evaluation of ASCON cryptographic algorithm
+          using power analysis and machine-learning-based side-channel attacks.
 
-      - name: "Hardware Cryptography Implementations"
-        summary: "FPGA implementations of AES, A5/1, Trivium, Keccak, Kogge-Stone adder, and Karatsuba multiplier architectures."
-        start_date: 2025
-        end_date: 2025
+      - name: Hardware Cryptography Implementations
+        summary: >
+          FPGA implementations of AES, A5/1, Trivium, Keccak,
+          Kogge-Stone adder, and Karatsuba multiplier architectures.
 
-      - name: "Side-Channel Analysis of AES"
-        summary: "Security evaluation of AES implementations against timing attacks, SPA, DPA, CPA, template attacks, and collision attacks."
-        start_date: 2025
-        end_date: 2025
+      - name: AES Side-Channel Analysis
+        summary: >
+          Evaluation of AES implementations against timing attacks,
+          SPA, DPA, CPA, template attacks, and collision attacks.
 
-      - name: "FPGA-DAC Interface Design"
-        summary: "Designed an FPGA interface communicating with an AD9117 dual DAC using VHDL."
-        start_date: 2022
-        end_date: 2022
+      - name: FPGA-DAC Interface Design
+        summary: >
+          Designed FPGA interface with AD9117 dual DAC using VHDL.
 
-      - name: "Fault Analysis on a Simple CPU"
-        summary: "Designed a Verilog CPU and performed fault injection, fault collapsing, and fault coverage analysis."
-        start_date: 2022
-        end_date: 2022
+      - name: Fault Analysis on Simple CPU
+        summary: >
+          Designed a Verilog CPU and performed fault injection,
+          fault collapsing, and fault coverage analysis.
 
 
     References:
-      - name: "Dr. Hakem Beitollahi"
-        icon: fa-solid fa-user
-        reference: "M.Sc. Supervisor and Research Collaborator"
+      - name: Dr. Hakem Beitollahi
+        reference: M.Sc. Supervisor and Research Collaborator
 
-      - name: "Dr. Hosseini Monazzah"
-        icon: fa-solid fa-user
-        reference: "M.Sc. Thesis Internal Examiner"
+      - name: Dr. Hosseini Monazzah
+        reference: M.Sc. Thesis Internal Examiner
